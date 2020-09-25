@@ -1,0 +1,336 @@
+body{
+    background-color: maroon;
+}
+
+@media (max-width: 1382px) {
+    #Postal
+    {
+        background-color: whitesmoke;   
+        border-radius: 25px;
+        margin-left:4vw;
+        width:90vw;
+        height:95vh;
+    }
+
+    #ImgPostal
+    {
+        float:left;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 35px;
+        border-radius: 25px;
+        width: 55%;
+        height: 92%;
+    }
+
+    #TituloPostal
+    {
+        display:block;
+        font-family:Segoe UI Light;
+        font-size:22px;
+        line-height:55px;
+        padding-top:80px;
+        padding-right:20px;
+    }
+
+    #Formulario
+    {
+        margin-top:30px;
+    }
+
+    .LabelPostal
+    {
+        font-family:Segoe UI Light;
+    }
+
+    .txtPostal
+    {
+        width:15%;
+        margin-left:15px;
+        border-radius: 15px;
+        border-color: maroon;
+        resize:none;
+        transition: border-color 0.5s;
+        font-family:Segoe UI;
+    }
+
+    .txtPostal:focus
+    {
+        border-color: blue;
+        transition: border-color 0.5s;
+    }
+
+    #txtMensaje
+    {
+        font-size:14px;
+        width:25%;
+        margin-left:80px;
+        margin-top:-20px;
+    }
+}
+
+@media (max-width: 1024px){
+    #Postal
+    {
+        background-color: whitesmoke;   
+        border-radius: 25px;
+        margin-left:1.75vw;
+        width:95vw;
+        height:90vh;
+    }
+    
+    #ImgPostal
+    {
+        float:left;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 35px;
+        border-radius: 25px;
+        width: 55%;
+        height: 92%;
+    }
+    
+    #TituloPostal
+    {
+        display:block;
+        font-family:Segoe UI Light;
+        font-size:22px;
+        line-height:40px;
+        padding-top:70px;
+        padding-right:20px;
+    }
+    
+    #Formulario
+    {
+        margin-top:30px;
+    }
+    
+    .LabelPostal
+    {
+        font-family:Segoe UI Light;
+    }
+    
+    .txtPostal
+    {
+        width:25%;
+        margin-left:15px;
+        border-radius: 15px;
+        border-color: maroon;
+        resize:none;
+        transition: border-color 0.5s;
+        font-family:Segoe UI;
+    }
+    
+    .txtPostal:focus
+    {
+        border-color: blue;
+        transition: border-color 0.5s;
+    }
+    
+    #txtMensaje
+    {
+        font-size:14px;
+        width:25%;
+        margin-left:80px;
+        margin-top:-20px;
+    }
+}
+
+@media (max-width: 800px){
+    #Postal
+    {
+        background-color: whitesmoke;   
+        border-radius: 25px;
+        margin-left:1.75vw;
+        width:94vw;
+        height:85vh;
+    }
+    
+    #ImgPostal
+    {
+        float:left;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 35px;
+        border-radius: 25px;
+        width: 55%;
+        height: 92%;
+    }
+    
+    #TituloPostal
+    {
+        display:block;
+        font-family:Segoe UI Light;
+        font-size:16px;
+        line-height:40px;
+        padding-top:50px;
+        padding-right:20px;
+    }
+    
+    #Formulario
+    {
+        margin-top:30px;
+    }
+    
+    .LabelPostal
+    {
+        font-family:Segoe UI Light;
+    }
+    
+    .txtPostal
+    {
+        width:20%;
+        margin-left:15px;
+        border-radius: 15px;
+        border-color: maroon;
+        resize:none;
+        transition: border-color 0.5s;
+        font-family:Segoe UI;
+    }
+    
+    .txtPostal:focus
+    {
+        border-color: blue;
+        transition: border-color 0.5s;
+    }
+    
+    #txtMensaje
+    {
+        font-size:14px;
+        width:18%;
+        margin-left:80px;
+        margin-top:-20px;
+    }
+}
+
+@media (max-width: 600px){
+    #Postal
+    {
+        background-color: whitesmoke;   
+        border-radius: 25px;
+        margin-left:1.75vw;
+        width:90vw;
+        height:225vh;
+    }
+    
+    #ImgPostal
+    {
+        width: 88%;
+        height: 40%;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    
+    #TituloPostal
+    {
+        display:block;
+        font-family:Segoe UI Light;
+        font-size:20px;
+        line-height:30px;
+        text-align: center;
+    }
+    
+    #Formulario
+    {
+        margin-top:30px;
+    }
+    
+    .LabelPostal
+    {
+        font-family:Segoe UI Light;
+        font-size:16px;
+        margin-left:15px;
+    }
+    
+    .txtPostal
+    {
+        width:55%;
+        margin-left:15px;
+        border-radius: 15px;
+        border-color: maroon;
+        resize:none;
+        transition: border-color 0.5s;
+        font-family:Segoe UI;
+    }
+    
+    .txtPostal:focus
+    {
+        border-color: blue;
+        transition: border-color 0.5s;
+    }
+    
+    #txtMensaje
+    {
+        font-size:14px;
+        width:65%;
+        padding-bottom:-20px;
+        margin-left:105px;
+        margin-top:-20px;
+    }
+}
+
+@media (max-height: 600px){
+    #Postal
+    {
+        background-color: whitesmoke;   
+        border-radius: 25px;
+        margin-left:1.75vw;
+        width:90vw;
+        height:225vh;
+    }
+    
+    #ImgPostal
+    {
+        width: 88%;
+        height: 40%;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    
+    #TituloPostal
+    {
+        display:block;
+        font-family:Segoe UI Light;
+        font-size:20px;
+        line-height:30px;
+        text-align: center;
+    }
+    
+    #Formulario
+    {
+        margin-top:30px;
+    }
+    
+    .LabelPostal
+    {
+        font-family:Segoe UI Light;
+        font-size:16px;
+        margin-left:15px;
+    }
+    
+    .txtPostal
+    {
+        width:55%;
+        margin-left:15px;
+        border-radius: 15px;
+        border-color: maroon;
+        resize:none;
+        transition: border-color 0.5s;
+        font-family:Segoe UI;
+    }
+    
+    .txtPostal:focus
+    {
+        border-color: blue;
+        transition: border-color 0.5s;
+    }
+    
+    #txtMensaje
+    {
+        font-size:14px;
+        width:65%;
+        padding-bottom:-20px;
+        margin-left:105px;
+        margin-top:-20px;
+    }
+}
